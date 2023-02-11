@@ -65,6 +65,10 @@ input{
     left: 29px;
 }
 
+::-webkit-input-placeholder{
+    font-size: 14px;
+}
+
 #link{
     position: absolute;
     width: 196px;
