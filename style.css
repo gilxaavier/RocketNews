@@ -24,6 +24,16 @@ body{
     justify-content: end;
 }
 
+#send{
+    position: relative;
+    display: flex;
+    left: 84%;
+    top: -35px;
+    width: 40px;
+    height: 34px;
+    background-color: purple;
+}
+
 #rocket{
     position: absolute;
     top: 50px;
@@ -32,7 +42,7 @@ body{
 
 #text{
     position: absolute;
-    width: 65%;
+    width: 45%;
     top: 236px;
     left: 36px;
 }
@@ -50,9 +60,10 @@ p{
 
 #form{
     position: absolute;
-    width: 789px;
+    justify-content: center;
+    width: 57%;
     height: 84px;
-    left: 36px;
+    left: 30px;
     top: 388px;
 }
 
@@ -62,10 +73,10 @@ label{
 }
 
 input{
-    width: 750px;
-    height: 48px;
+    width: 490px;
+    height: 30px;
     top: 422px;
-    left: 29px;
+    /* left: 29px; */
 }
 
 ::-webkit-input-placeholder{
